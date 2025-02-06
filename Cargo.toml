@@ -1,0 +1,12 @@
+[package]
+name = "aide-axum-typed-multipart"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aide = "0.14.0"
+async-trait = "0.1.86"
+axum = "0.8.1"
+axum_typed_multipart = "0.15.1"
+indexmap = "2.7.1"
+schemars = "0.8.21"
