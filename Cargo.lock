@@ -44,8 +44,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "aide-axum-typed-multipart"
-version = "0.1.0"
+name = "aide-axum-typed-multipart-w"
+version = "0.14.0"
 dependencies = [
  "aide",
  "async-trait",

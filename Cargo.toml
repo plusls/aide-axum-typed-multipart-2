@@ -1,12 +1,19 @@
 [package]
-name = "aide-axum-typed-multipart"
-version = "0.1.0"
+name = "aide-axum-typed-multipart-w"
+version = "0.14.0"
 edition = "2021"
+authors = ["Zizico2"]
+keywords = ["web", "axum", "multipart"]
+repository = "https://github.com/Zizico2/aide-axum-typed-multipart-2"
+license = "MIT OR Apache-2.0"
+description = "Type safe multipart/form-data handling for axum and aide"
+readme = "README.md"
+
 
 [dependencies]
-aide = "0.14.0"
-async-trait = "0.1.86"
-axum = "0.8.1"
-axum_typed_multipart = "0.15.1"
+aide = "0.14"
+axum = "0.8"
+axum_typed_multipart = "0.15"
+schemars = "0.8"
 indexmap = "2.7.1"
-schemars = "0.8.21"
+async-trait = "0.1.86"
