@@ -25,3 +25,7 @@ async fn post_hello_world(_: TypedMultipart<MyMultipart>) -> StatusCode {
     return StatusCode::OK;
 }
 ```
+
+## License
+
+All code in this repository is dual licensed under [MIT](./LICENSE-MIT) and [Apache-2.0](./LICENSE-Apache).
