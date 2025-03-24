@@ -101,7 +101,7 @@ impl<T: JsonSchema> JsonSchema for FieldData<T> {
         T::schema_name()
     }
 
-    fn json_schema(gen: &mut schemars::gen::SchemaGenerator) -> schemars::schema::Schema {
-        T::json_schema(gen)
+    fn json_schema(r#gen: &mut schemars::r#gen::SchemaGenerator) -> schemars::schema::Schema {
+        T::json_schema(r#gen)
     }
 }

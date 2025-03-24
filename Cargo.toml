@@ -1,7 +1,7 @@
 [package]
 name = "aide-axum-typed-multipart-2"
 version = "0.14.0"
-edition = "2021"
+edition = "2024"
 authors = ["Zizico2"]
 keywords = ["web", "axum", "multipart"]
 repository = "https://github.com/Zizico2/aide-axum-typed-multipart-2"
@@ -11,9 +11,9 @@ readme = "README.md"
 
 
 [dependencies]
-aide = "0.14"
-axum = "0.8"
-axum_typed_multipart = "0.15"
-schemars = "0.8"
-indexmap = "2.7.1"
-async-trait = "0.1.86"
+aide = "^0.14"
+axum = "^0.8"
+axum_typed_multipart = "^0.15"
+schemars = "^0.8"
+indexmap = "^2.8"
+async-trait = "^0.1"
